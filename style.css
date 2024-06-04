@@ -37,7 +37,7 @@ body {
     border-bottom: 1px solid gray;
 }
 
-@media screen and (max-width:48rem){
+@media screen and(min-width: 768px){
     .f-med{
         color: black;
     }
@@ -49,6 +49,9 @@ body {
         background-color: #F3F3F3;
         border: 2px solid black;
         border-radius: 10px;
+    }
+    .second_img{
+        padding-top: 10px;
     }
     
 }
