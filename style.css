@@ -1,0 +1,45 @@
+body {
+    color: gray;
+}
+.b-black{
+    background-color: black;
+}
+.b-black span{
+    color: white;
+    font-weight: 600;
+}
+
+.b-black a{
+    color: skyblue;
+}
+
+.img-bor img{
+    border-radius: 15px;
+    width: 439px;
+}
+
+.f-font a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.first-line{
+    border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width:48rem){
+    .f-med{
+        color: black;
+    }
+    .title{
+        color: blue;
+    }
+    .card{
+        padding: 0;
+        background-color: #F3F3F3;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+}
