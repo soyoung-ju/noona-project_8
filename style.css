@@ -12,6 +12,15 @@ body {
 .b-black a{
     color: skyblue;
 }
+.card-img-top{
+    filter: brightness(1);
+}
+.card-img-top:hover{
+    filter: brightness(0.5);
+}
+.f_at:hover{
+    color: skyblue;
+}
 
 .img-bor img{
     border-radius: 15px;
