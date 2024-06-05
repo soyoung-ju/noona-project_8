@@ -8,9 +8,15 @@ body {
     color: white;
     font-weight: 600;
 }
-
+.img-thumbnail{
+    background-color: #ddd;
+}
 .b-black a{
     color: skyblue;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
 }
 .card-img-top{
     filter: brightness(1);
@@ -21,7 +27,9 @@ body {
 .f_at:hover{
     color: skyblue;
 }
-
+.card{
+    margin-right: 10px;
+}
 .card-text{
     font-size: 15px;
 }
