@@ -10,6 +10,11 @@ body {
 }
 .img-thumbnail{
     background-color: #ddd;
+    transition: all 0.2s linear;
+    overflow: hidden;
+}
+.img-thumbnail:hover{
+    transform: scale(1.1);
 }
 .b-black a{
     color: skyblue;
@@ -33,11 +38,16 @@ body {
 .card-text{
     font-size: 15px;
 }
+.second_img{
+    transition: all 0.2s linear;
+    overflow: hidden;
+}
+.second_img:hover{
+    transform: scale(1.1);
+}
 .img-bor img{
     border-radius: 30px;
-    /* width: 439px; */
 }
-
 .f-font a{
     color: black;
     text-decoration: none;
